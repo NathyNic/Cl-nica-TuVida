@@ -181,7 +181,7 @@ p {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    width: 1300px;
+    max-width: 1300px;
     height: 270px;
 }
 
@@ -190,7 +190,7 @@ p {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    padding: 40px;
     left: 0px;
     top: 0px;
 }
@@ -211,9 +211,72 @@ p {
     border-radius: 30px;
     transition: background 0.5s;
     text-decoration: none;
+    font-size: 15px;
 }
 
 #allesp a:hover {
+    background: white;
+    color: black;
+}
+
+
+#secstaff {
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#secstaff .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px 30px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px;
+}
+
+#secstaff .col.col-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    left: 0px;
+    top: 0px;
+}
+
+#secstaff .col#letra {
+    background-color: #24661D;
+    color: white;
+}
+
+#secstaff .col#letra h1 {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+#secstaff .col#letra p {
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+}
+
+#letra .verm {
+    display: inline-block;
+    background-color: #48CC39;
+    color: black;
+    padding: 15px 15px;
+    margin: 20px 0;
+    border-radius: 10px;
+    transition: background 0.5s;
+    text-decoration: none;
+    font-size: 15px;
+    width: fit-content;
+}
+
+#letra .verm:hover {
     background: white;
     color: black;
 }
