@@ -280,3 +280,77 @@ p {
     background: white;
     color: black;
 }
+
+#ubic {
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#mapa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    left: 0px;
+    top: 0px;
+}
+
+#ubic .col h1 {
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+#ubic .col p {
+    font-weight: normal;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: radial-gradient(#fff, #dcfcd8);
+}
+
+#infooter {
+    padding: 30px;
+    left: 0px;
+    top: 0px;
+}
+
+#infooter .col {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    left: 0px;
+    top: 0px;
+}
+
+#infooter .col#mid {
+    align-items: center;
+}
+
+#infooter p {
+    font-size: 18px;
+    color: #24661D;
+}
+
+#infooter h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #24661D;
+}
+
+#infooter a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #24661D;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
