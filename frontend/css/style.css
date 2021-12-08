@@ -8,6 +8,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Header */
 nav {
     background: none;
     display: flex;
@@ -45,6 +46,8 @@ nav .nav-items li a:hover,
 ul.primero a:hover {
     color: #24661D;
 }
+
+/*End Header */
 
 a {
     text-decoration: none;
@@ -281,6 +284,7 @@ p {
     color: black;
 }
 
+/*Sección Ubicación*/
 #ubic {
     justify-content: center;
     align-items: center;
@@ -309,6 +313,11 @@ p {
     color: black;
     margin-bottom: 5px;
 }
+
+/*End Ubicación*/
+
+
+/*Footer*/
 
 .footer {
     display: flex;
@@ -353,4 +362,35 @@ p {
     color: #24661D;
     text-decoration: none;
     margin-bottom: 10px;
+}
+
+/*End Footer*/
+
+#realbusq {
+    display: flex;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+#busqueda {
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+}
+
+#busqueda .col {
+    display: flex;
+    padding: 5px;
+    margin: 0px 10px;
+}
+
+#btnBuscar {
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+    background-color: #24661D;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
 }
