@@ -366,10 +366,18 @@ p {
 
 /*End Footer*/
 
+
+/*Staff médico*/
+
 #realbusq {
     display: flex;
     margin-top: 15px;
     padding: 10px;
+}
+
+#realbusq h3 {
+    font-size: 24px;
+    font-weight: bold;
 }
 
 #busqueda {
@@ -393,4 +401,12 @@ p {
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
+}
+
+#barraselectletter a {
+    color: #24661D;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
 }
