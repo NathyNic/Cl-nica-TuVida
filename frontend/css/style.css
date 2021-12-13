@@ -410,3 +410,16 @@ p {
     font-weight: bold;
     text-align: center;
 }
+
+#pagination {
+    background: none;
+    display: contents;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 100px;
+    justify-content: space-between;
+}
+
+#pagination li.page-item#e a {
+    color: #24661D;
+}
