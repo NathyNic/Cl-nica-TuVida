@@ -14,33 +14,45 @@
 <body>
     <div class="header">
         <nav>
+            <div class="nav-items" style="margin-top:18px;">
+                <ul class="primero">
+                    <li><img src="https://img.icons8.com/ios/50/000000/undo.png"
+                            style="width: 30px; height: 30px; margin-right: 5px;" /><a href="#">Regresar</a></li>
+                </ul>
+            </div>
             <div class="logo">
                 <img type="button" src="../img/Clínica TuVida (2).png" width="250px"
                     onclick="window.location.href='index.html'">
             </div>
-            <div class="nav-items" style="margin-top:18px;">
-                <ul class="primero">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                        aria-expanded="false">La clínica</a>
-                    <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
-                        </li>
-                        <li><a class="dropdown-item" href="#">Separated link</a></li>
-                    </ul>
-                    <!--<li><a href="#">La clínica</a></li>-->
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Noticias</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </div>
-            <button id="citab">
-                <a href="#">Citas en línea</a>
-            </button>
         </nav>
+    </div>
+
+    <div class="header">
+        <div class="container" style="height: 91vh; padding-top: 200px;">
+            <div class="row row-cols-1">
+                <div class="col" id="titlesp">
+                    <h1>Reserva una cita rápidamente</h1>
+                </div>
+            </div>
+            <form action="#" method="post">
+                <div class="row justify-content-center" id="busqueda" style="margin-top: 5px;">
+                    <div class="col-3 d-flex justify-content-center">
+                        <select class="form-select" aria-label="Default select example" required>
+                            <option value="">Seleccione</option>
+                            <option value="1">DNI</option>
+                            <option value="2">Carnet de Extranjería</option>
+                        </select>
+                    </div>
+                    <div class="col-3 d-flex justify-content-center text-center">
+                        <input type="text" class="form-control" id="dr_name" name="dr_name"
+                            placeholder="Nro. de documento" style="text-align: center;">
+                    </div>
+                    <div class="col-3">
+                        <input id="btnBuscar" type="submit" value="Ingresar" placeholder="Buscar">
+                    </div>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 
