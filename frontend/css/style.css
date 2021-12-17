@@ -122,15 +122,17 @@ p {
     color: black;
 }
 
-#citab {
+#citab,
+#iniciore {
     display: inline-block;
     background-color: #24661D;
     padding: 8px 30px;
     margin: 30px 0;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
-#citab a {
+#citab a,
+#iniciore a {
     color: white;
     text-decoration: none;
 }
