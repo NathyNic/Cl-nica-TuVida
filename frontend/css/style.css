@@ -427,3 +427,66 @@ p {
 }
 
 /*End Staff médico*/
+
+
+
+/*Página Reserva de Citas*/
+
+.square {
+    display: inline-block;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    padding-top: 5px;
+    border: 1px solid #24661D;
+    height: 103px;
+    width: 103px;
+}
+
+.square h6 {
+    font-size: 18px;
+    margin-bottom: 0px;
+    color: #24661D;
+}
+
+.square h3 {
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: #24661D;
+}
+
+
+.square2 {
+    display: inline-block;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    align-content: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    height: 309px;
+    width: 309px;
+    box-shadow: 6px 6px 4px grey;
+}
+
+.square2 h4 {
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.square2 img {
+    width: 15%;
+    height: 15%;
+    padding: 10px;
+}
+
+.square2 p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: #24661D;
+}

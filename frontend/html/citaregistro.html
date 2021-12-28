@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Reserva de Citas | Clínica TuVida</title>
 </head>
 
 <body>
@@ -28,7 +28,7 @@
         </nav>
     </div>
 
-    <div class="content">
+    <div class="content" style="margin-bottom: 20px;">
         <div class="container">
             <div class="row row-cols-1">
                 <div class="col" id="titlesp">
@@ -41,8 +41,60 @@
                 </div>
             </div>
             <form action="#" method="post">
-                <div class="row justify-content-center" id="busqueda" style="margin-top: 5px;">
-                    <div class="col-3 d-flex justify-content-center">
+                <div class="row justify-content-start">
+                    <div class="col-4 d-flex justify-content-center text-center" style="flex-direction: column;">
+                        <label for="pac_name" style="align-self: flex-start; margin-bottom: 5px;">Nombres:</label>
+                        <input type="text" class="form-control" id="pac_name" name="pac_name" placeholder="Nombres"
+                            style="text-align: center;">
+                    </div>
+                    <div class="col-5 d-flex justify-content-center text-center" style="flex-direction: column;">
+                        <label for="pac_lname" style="align-self: flex-start; margin-bottom: 5px;">Apellidos:</label>
+                        <input type="text" class="form-control" id="pac_lname" name="pac_lname" placeholder="Apellidos"
+                            style="text-align: center;">
+                    </div>
+                    <div class="col-3 d-flex justify-content-center text-center" style="flex-direction: column;">
+                        <label for="pac_dni" style="align-self: flex-start; margin-bottom: 5px;">DNI:</label>
+                        <input type="text" class="form-control" id="pac_dni" name="pac_dni"
+                            placeholder="Nro. de documento" style="text-align: center;">
+                    </div>
+                </div>
+
+                <div class="row justify-content-around" style="margin-top: 10px;">
+                    <div class="col-6 d-flex justify-content-center text-center" style="flex-direction: column;">
+                        <label for="pac_address" style="align-self: flex-start; margin-bottom: 5px;">Dirección:</label>
+                        <input type="text" class="form-control" id="pac_address" name="pac_address"
+                            placeholder="Calle/Av./Jr." style="text-align: center;">
+                    </div>
+                    <div class="col-3 d-flex justify-content-center text-center" style="flex-direction: column;">
+                        <label for="pac_district" style="align-self: flex-start; margin-bottom: 5px;">Distrito:</label>
+                        <input type="text" class="form-control" id="pac_district" name="pac_district"
+                            placeholder="Distrito">
+                    </div>
+                    <div class="col-3 d-flex justify-content-center text-center" style="flex-direction: column;">
+                        <label for="pac_state" style="align-self: flex-start; margin-bottom: 5px;">Provincia:</label>
+                        <input type="text" class="form-control" id="pac_state" name="pac_state" placeholder="Provincia"
+                            style="text-align: center;">
+                    </div>
+                </div>
+
+                <div class="row justify-content-start" style="margin-top: 10px;">
+                    <div class="col-2 d-flex justify-content-center text-center" style="flex-direction: column;">
+                        <label for="pac_cellphone" style="align-self: flex-start; margin-bottom: 5px;">Teléfono
+                            celular:</label>
+                        <input type="text" class="form-control" id="pac_cellphone" name="pac_cellphone"
+                            placeholder="Nro. de celular" style="text-align: center;">
+                    </div>
+                </div>
+            </form>
+
+            <div class="row justify-content-between">
+                <div class="col-4" id="realbusq">
+                    <h3>2. Reserva una cita</h3>
+                </div>
+            </div>
+            <form action="" method="post">
+                <div class="row justify-content-start" id="busqueda" style="margin-top: 5px;">
+                    <div class="col-3 d-flex justify-content-start">
                         <select class="form-select" aria-label="Default select example" required>
                             <option value="">Seleccione</option>
                             <option value="1">Pediatría</option>
@@ -50,193 +102,66 @@
                             <option value="3">Cardiología</option>
                         </select>
                     </div>
-                    <div class="col-3 d-flex justify-content-center text-center">
-                        <input type="text" class="form-control" id="dr_name" name="dr_name"
-                            placeholder="Nombre y/o apellido" style="text-align: center;">
-                    </div>
                     <div class="col-3">
                         <input id="btnBuscar" type="submit" value="Buscar" placeholder="Buscar">
                     </div>
                 </div>
             </form>
+            <div class="row justify-content-between">
+                <div class="col-4" id="realbusq">
+                    <h3>Horarios disponibles</h3>
+                </div>
+            </div>
+            <form action="" method="post">
+                <div class="container">
+                    <!--<div class="row" id="inicial">
+                            <h5>Seleccione una especialidad para mostrar los horarios disponibles</h5>
+                        </div>-->
+                    <div class="row justify-content-start" style="text-align: center;">
+                        <div class="col-1" style="margin-right: 20px;">
+                            <div class="square">
+                                <h6>Mié</h6>
+                                <h3>24</h3>
+                                <h6>Dic</h6>
+                            </div>
+                        </div>
+                        <div class="col-1">
+                            <div class="square">
+                                <h6>Mié</h6>
+                                <h3>24</h3>
+                                <h6>Dic</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-start" style="margin-top: 10px; align-items: center;">
+                        <div class="col-2">
+                            <div class="square2">
+                                <h4>8:00 AM</h4>
+                                <h4>Dr. Tapia Leonardo, José </h4>
+                                <p><img src="https://img.icons8.com/pastel-glyph/64/000000/door--v3.png" />Consultorio
+                                    206</p>
+                                <p><img src="https://img.icons8.com/ios/64/000000/corridor.png" />Pasillo B</p>
+                                <p><img
+                                        src="../img/floor-flooring-house-icon-with-png-and-vector-format-for-free-769177.png" />Piso
+                                    2</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end">
+                        <div class="col-1">
+                            <button>Cancelar</button>
+                        </div>
+                        <div class="col-1">
+                            <button>Continuar</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
 
-        <div class="container">
-            <div class="row justify-content-center" id="barraselectletter" style="margin-top: 30px;">
-                <div class="col">
-                    <a href="">Todos</a>
-                </div>
-                <div class="col">
-                    <a href="">A</a>
-                </div>
-                <div class="col">
-                    <a href="">B</a>
-                </div>
-                <div class="col">
-                    <a href="">C</a>
-                </div>
-                <div class="col">
-                    <a href="">D</a>
-                </div>
-                <div class="col">
-                    <a href="">E</a>
-                </div>
-                <div class="col">
-                    <a href="">F</a>
-                </div>
-                <div class="col">
-                    <a href="">G</a>
-                </div>
-                <div class="col">
-                    <a href="">H</a>
-                </div>
-                <div class="col">
-                    <a href="">I</a>
-                </div>
-                <div class="col">
-                    <a href="">J</a>
-                </div>
-                <div class="col">
-                    <a href="">K</a>
-                </div>
-                <div class="col">
-                    <a href="">L</a>
-                </div>
-                <div class="col">
-                    <a href="">M</a>
-                </div>
-                <div class="col">
-                    <a href="">N</a>
-                </div>
-                <div class="col">
-                    <a href="">Ñ</a>
-                </div>
-                <div class="col">
-                    <a href="">O</a>
-                </div>
-                <div class="col">
-                    <a href="">P</a>
-                </div>
-                <div class="col">
-                    <a href="">Q</a>
-                </div>
-                <div class="col">
-                    <a href="">R</a>
-                </div>
-                <div class="col">
-                    <a href="">S</a>
-                </div>
-                <div class="col">
-                    <a href="">T</a>
-                </div>
-                <div class="col">
-                    <a href="">U</a>
-                </div>
-                <div class="col">
-                    <a href="">V</a>
-                </div>
-                <div class="col">
-                    <a href="">W</a>
-                </div>
-                <div class="col">
-                    <a href="" class="disabled">X</a>
-                </div>
-                <div class="col">
-                    <a href="">Y</a>
-                </div>
-                <div class="col">
-                    <a href="">Z</a>
-                </div>
-            </div>
-            <div class="row justify-content-center" style="margin-top: 50px;">
-                <div class="col-4">
-                    <div class="card" style="width: 18rem; margin: auto;">
-                        <img src="../img/pexels-ivan-samkov-4989148.jpg" class="card-img-top" alt="..."
-                            style="width: auto; height: auto;">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card" style="width: 18rem; margin: auto;">
-                        <img src="../img/pexels-ivan-samkov-4989148.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card" style="width: 18rem; margin: auto;">
-                        <img src="../img/pexels-ivan-samkov-4989148.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center" style="margin-top: 50px;">
-                <div class="col-4">
-                    <div class="card" style="width: 18rem; margin: auto;">
-                        <img src="../img/pexels-ivan-samkov-4989148.jpg" class="card-img-top" alt="..."
-                            style="width: auto; height: auto;">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card" style="width: 18rem; margin: auto;">
-                        <img src="../img/pexels-ivan-samkov-4989148.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4">
-                    <div class="card" style="width: 18rem; margin: auto;">
-                        <img src="../img/pexels-ivan-samkov-4989148.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
-                                of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center" style="margin-top: 30px; width: 100%;">
-                <nav aria-label="Page navigation example" id="pagination" style="width: 100%;">
-                    <ul class="pagination justify-content-center">
-                        <li class="page-item disabled">
-                            <a class="page-link">Anterior</a>
-                        </li>
-                        <li class="page-item" id="e"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item" id="e"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item" id="e"><a class="page-link" href="#">3</a></li>
-                        <li class="page-item" id="e">
-                            <a class="page-link" href="#">Siguiente</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
     </div>
+
+
 </body>
 
 </html>
