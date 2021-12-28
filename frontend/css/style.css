@@ -490,3 +490,11 @@ p {
     margin-bottom: 0px;
     color: #24661D;
 }
+
+.vl {
+    border-left: 1px solid black;
+    height: 334.01px;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
