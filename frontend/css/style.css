@@ -430,6 +430,35 @@ p {
 
 /*Donar sangre*/
 
+.imagen_principal_donativo{
+    position:relative;
+}
+
+.donar_inicial{
+    position: absolute;
+    top: 10rem;
+    left: 16rem;
+    color: #FFFF;
+    font-size: 50px;
+    text-decoration: double;   
+    font-weight: bolder;
+    text-shadow: 2.5px 2.5px #C4C4C4;
+}
+
+.donar_end{
+    position: absolute;
+    top: 14rem;
+    left: 17rem;
+    color: #FFFF;
+    font-size: 25px;
+}
+
+.titulo_donar_requi{
+    font-weight: bolder;
+    margin: 20px 0 20px 0;
+    text-shadow: 2px 4px #C4C4C4;
+}
+
 .rectangulo {
     position: relative;
     margin: 15px 0 30px 0;
@@ -450,6 +479,7 @@ p {
     top: 0;
     left: 0;
     margin: 0 0 0 0;
+    height: 110px;
 }
 
 .texto_peso{
@@ -495,6 +525,10 @@ p {
     left: 0;
     margin: 0 0 0 0;
     height: 110px;
+}
+
+.proceso_donar{
+    width: 100px;
 }
 
 /*End Donar Sangre*/
