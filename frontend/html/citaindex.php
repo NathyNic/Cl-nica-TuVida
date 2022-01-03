@@ -35,17 +35,17 @@
             <form action="./citaregistro.php" method="post">
                 <div class="row justify-content-center" id="tipo_doc" style="margin-top: 5px;">
                     <div class="col-3 d-flex justify-content-center">
-                        <select class="form-select" aria-label="Default select example" required>
+                        <select class="form-select" aria-label="Default select example" name="tipo_doc" required>
                             <option value="">Seleccione</option>
                             <option value="1">DNI</option>
                             <option value="2">Carnet de Extranjería</option>
                         </select>
                     </div>
                     <div class="col-3 d-flex justify-content-center text-center">
-                        <input type="text" class="form-control" id="n_doc" name="n_doc" placeholder="Nro. de documento" style="text-align: center;">
+                        <input type="text" class="form-control" id="nro_doc" name="nro_doc" placeholder="Nro. de documento" style="text-align: center;">
                     </div>
                     <div class="col-3">
-                        <input id="btnIngresar" type="submit" value="Ingresar" placeholder="Ingresar">
+                        <input id="btnIngresar" type="submit" value="Ingresar" name="ingresar" placeholder="Ingresar">
                     </div>
                 </div>
             </form>
