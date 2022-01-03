@@ -427,3 +427,74 @@ p {
 }
 
 /*End Staff médico*/
+
+/*Donar sangre*/
+
+.rectangulo {
+    position: relative;
+    margin: 15px 0 30px 0;
+
+}
+
+.barra_texto{
+    position: absolute;
+    top: 30px;
+    left: 15%;
+    font-size: 30px;
+    color: #FFFF;
+    margin: 0 0 0 0;
+}
+
+#mayor_18{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 0 0 0;
+}
+
+.texto_peso{
+    position: absolute;
+    top: 8px;
+    left: 70%;
+    font-size: 30px;
+    color: #FFFF;
+    margin: 0 0 0 0;
+    width: 450px;
+    text-align: center;
+}
+
+.texto_dni{
+    position: absolute;
+    top: 30px;
+    left: 140%;
+    font-size: 30px;
+    color: #FFFF;
+    margin: 0 0 0 10;
+    width: 450px;
+}
+
+#peso{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 0 0 0;
+    height: 110px;
+}
+
+#dni_18{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 0 0 0;
+    height: 110px;
+}
+
+#electro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0 0 0 0;
+    height: 110px;
+}
+
+/*End Donar Sangre*/
