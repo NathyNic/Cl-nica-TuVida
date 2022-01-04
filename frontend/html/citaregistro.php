@@ -112,44 +112,67 @@
                         <h5>Seleccione una especialidad para mostrar los horarios disponibles</h5>
                     </div>
                     <span id="result">
-                        <div class="row justify-content-start" style="text-align: center;">
-                            <div class="col-1" style="margin-right: 20px;">
-                                <div class="square">
+                        <div class="row justify-content-start" id="fechas" style="text-align: center;">
+                            <div class="col-1" style="margin-right: 10px; width: fit-content;">
+                                <input type="radio" id="btnselect1" name="btnselect" checked>
+                                <label for="btnselect1">
                                     <h6>Mié</h6>
                                     <h3>24</h3>
                                     <h6>Dic</h6>
-                                </div>
+                                </label>
                             </div>
-                            <div class="col-1">
-                                <div class="square">
+                            <div class="col-1" style="margin-right: 10px; width: fit-content;">
+                                <input type="radio" id="btnselect2" name="btnselect">
+                                <label for="btnselect2">
                                     <h6>Mié</h6>
                                     <h3>24</h3>
                                     <h6>Dic</h6>
-                                </div>
+                                </label>
                             </div>
-                        </div>
-                        <div class="row justify-content-start" style="margin-top: 10px; align-items: center;">
-                            <div class="col-2">
-                                <div class="square2">
-                                    <h4>8:00 AM</h4>
-                                    <h4>Dr. Tapia Leonardo, José </h4>
-                                    <p><img src="https://img.icons8.com/pastel-glyph/64/000000/door--v3.png" />Consultorio
-                                        206</p>
-                                    <p><img src="https://img.icons8.com/ios/64/000000/corridor.png" />Pasillo B</p>
-                                    <p><img src="../img/floor-flooring-house-icon-with-png-and-vector-format-for-free-769177.png" />Piso
-                                        2</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row justify-content-end">
-                            <div class="col-1" style="margin-left: 10px;">
-                                <button class="btnbl" id="btncanc">Cancelar</button>
-                            </div>
-                            <div class="col-1" style="margin-left: 10px;">
-                                <button class="btnvd" id="btncont">Continuar</button>
+                            <div class="col-1" style="margin-right: 10px; width: fit-content;">
+                                <input type="radio" id="btnselect3" name="btnselect">
+                                <label for="btnselect3">
+                                    <h6>Mié</h6>
+                                    <h3>24</h3>
+                                    <h6>Dic</h6>
+                                </label>
                             </div>
                         </div>
                     </span>
+                    <div class="row justify-content-start" id="citasdispo" style="margin-top: 10px; align-items: center;">
+                        <div class="col-2">
+                            <input type="radio" id="btnSelCita1" name="btnSelCita">
+                            <label for="btnSelCita1">
+                                <h4> <strong>8:00 AM</strong></h4>
+                                <h4> <strong>Dr. Tapia Leonardo, José</strong></h4>
+                                <p><img src="https://img.icons8.com/pastel-glyph/64/000000/door--v3.png" />Consultorio
+                                    206</p>
+                                <p><img src="https://img.icons8.com/ios/64/000000/corridor.png" />Pasillo B</p>
+                                <p><img src="../img/floor-flooring-house-icon-with-png-and-vector-format-for-free-769177.png" />Piso
+                                    2</p>
+                            </label>
+                        </div>
+                        <div class="col-2">
+                            <input type="radio" id="btnSelCita2" name="btnSelCita">
+                            <label for="btnSelCita2">
+                                <h4> <strong>8:00 AM</strong></h4>
+                                <h4> <strong>Dr. Tapia Leonardo, José</strong></h4>
+                                <p><img src="https://img.icons8.com/pastel-glyph/64/000000/door--v3.png" />Consultorio
+                                    206</p>
+                                <p><img src="https://img.icons8.com/ios/64/000000/corridor.png" />Pasillo B</p>
+                                <p><img src="../img/floor-flooring-house-icon-with-png-and-vector-format-for-free-769177.png" />Piso
+                                    2</p>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="row justify-content-end">
+                        <div class="col-1" style="margin-left: 10px;">
+                            <button class="btnbl" id="btncanc">Cancelar</button>
+                        </div>
+                        <div class="col-1" style="margin-left: 10px;">
+                            <button class="btnvd" id="btncont">Continuar</button>
+                        </div>
+                    </div>
                 </div>
             </form>
         </div>
