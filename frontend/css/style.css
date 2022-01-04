@@ -683,3 +683,271 @@ p {
     background-color: #24661D !important;
     color: white !important;
 }
+
+/*Claudia*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cont.info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    max-width: 1300px;
+    justify-content:left;
+    align-items:left ;
+
+}
+
+.infor{
+    position: absolute;
+    width: 413px;
+    height: 437px;
+    left: 112px;
+    top: 230px;
+    
+   
+}   
+
+.boton{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width: 100%;
+    height: 80px;
+    background:#24661D;
+    color:#fff;
+    font-family:'Roboto',sans-serif;
+    font-size:20px;
+    font-weight:500;
+    border: none;
+    cursor:pointer;
+    text-transform: uppercase;
+    transition: .3s ease all;
+    border-radius:5px;
+}
+.boton.uno::after{
+    position: absolute;
+    width: 278px;
+    height: 90px;
+    left: 632px;
+    top: 330px;
+    
+    background: #24661D;
+    border-radius: 20px;
+}
+.boton.dos::after{
+    position: absolute;
+    width: 278px;
+    height: 90px;
+    left: 1063px;
+    top: 330px;
+    
+    background: #24661D;
+    border-radius: 20px;
+}
+.boton.tres::after{
+    position: absolute;
+    width: 278px;
+    height: 90px;
+    left: 632px;
+    top: 480px;
+    
+    background: #24661D;
+    border-radius: 20px;
+}
+.boton.cuatro::after{
+    position: absolute;
+    width: 278px;
+    height: 90px;
+    left: 1079px;
+    top: 467px;
+    
+    background: #24661D;
+    border-radius: 20px;
+}
+/*IC-Nuestra Historia*/
+.parrafo{
+   /*z-index:1;
+   width:540px;
+   height:440px;
+   padding:20px 20px;
+   font-size:15px;
+   line-height: 1.5;
+   background: #fff;
+   box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
+   border-radius:5px;
+   text-align: justify;*/
+   position: absolute;
+width: 1020px;
+height: 690px;
+left: 494px;
+top: 250px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+}
+.parrafo img{
+    width: 310px;
+    border-radius: 5px;
+    float:left;
+    margin-right: 15px;
+ 
+}
+.parrafo2 img{
+    width: 310px;
+    border-radius: 5px;
+    float:right;
+    margin-right: 15px;
+}
+/*IC-Sobre la Empresa*/
+.parrafo3{
+    position: absolute;
+    width: 1800px;
+    height: 590px;
+    left: 124px;
+    top: 300px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+.parrafo3 img{
+    width: 510px;
+    border-radius: 5px;
+    float:right;
+    margin-right: 15px;
+ 
+}
+/*Nuestras Instalaciones*/
+.ImagenNI{
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: 10em;
+    
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px;
+}
+
+.item-img{
+    max-width: 100%;
+    display:block;
+}
+/*Contactenos*/
+.banner img {
+    position: absolute;
+    width: 2027px;
+    height: 324px;
+    left: 0px;
+    top: 100px;
+    
+}
+.contenedor .form .form-header .form-title{
+    font-weight: normal;
+    font-family: Montserrat;
+    color:#000000;
+    text-align: center;
+    padding: 14px 0;
+}
+.contenedor .form .form-header .form-title span{
+    color:#fff;
+   
+
+}
+.contenedor .form {
+    background: rgda(0,0,0,0.6);
+    width: 90%;
+    max-width: 658;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 3px;
+}
+.contenedor .form .form-label{
+    display:block;
+    color:#000000;
+    font-size:16px;
+    font-family: Montserrat;
+    position: relative;
+}
+.contenedor .form .form-input, .formtextarea{
+    background: rgba(0,0,0,.3);
+    border:none;
+    outline: none;
+    border-bottom: 2px solid ;
+    width: 100%;
+    padding:12px ;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #fff;
+    font-size: Montserrat;
+}
+.contenedor .form .formtextarea{
+    resize:vertical;
+    max-height: 150px;
+    min-height: 50px;
+}
+.contenedor .form .btn-submit{
+    width: 100%;
+    font-family: Montserrat;
+    outline: none;
+    background: #24661D;
+    font-size: 16px;
+    border:none;
+    color:#fff;
+    padding: 15px 0;
+    cursor: pointer;
+}
+.contenedor .form .btn-submit:hover {
+    background: #48CC39;
+}
+
+/*Cardiologia*/
+.parrafo10{
+   
+position: absolute;
+ width: 1020px;
+ height: 690px;
+ left: 494px;
+ top: 250px;
+ 
+ font-family: Montserrat;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 20px;
+ line-height: 24px;
+ 
+ color: #000000;
+ 
+ }
+ .parrafo10 img{
+     /*width: 310px;
+     border-radius: 5px;
+     float:left;
+     margin-right: 15px;*/
+     position: absolute;
+width: 300px;
+height: 288px;
+left: 50px;
+top: 550px;
+  
+ }
+ /*Fin Claudia*/
