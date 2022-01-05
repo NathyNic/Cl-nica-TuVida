@@ -169,8 +169,12 @@
             if (isset($_POST['buscar'])) {
                 $buscar_query = $_POST['dr_name'];
                 $especialidad_query = $_POST['espec_value'];
+                $where = "WHERE staffmed.espec = '$especialidad_query' ";
+                if (!empty($buscar_query)) {
+                    $where .= "or staffmed.apellidos like '%" . $buscar_query . "%'";
+                }
                 $query = $conex->query("select staffmed.*, left(staffmed.apellidos,1), especialidades.nombespec from staffmed
-            inner join especialidades on staffmed.espec = especialidades.idespec where staffmed.apellidos like '%" . $buscar_query . "%' or staffmed.espec = '$especialidad_query' ") or die($conex->error);
+            inner join especialidades on staffmed.espec = especialidades.idespec $where ") or die($conex->error);
                 $count = mysqli_num_rows($query);
                 $numofcols = 3;
                 $rowcount = 0;
