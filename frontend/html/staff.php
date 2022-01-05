@@ -37,7 +37,7 @@
                 </ul>
             </div>
             <button id="citab">
-                <a href="./citaindex.html">Citas en línea</a>
+                <a href="./citaindex.php">Citas en línea</a>
             </button>
         </nav>
     </div>
