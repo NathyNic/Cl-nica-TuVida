@@ -13,27 +13,25 @@
 </head>
 
 <body>
-    <div class="header">
+<div class="header">
         <nav>
             <div class="logo">
-                <img type="button" src="../img/Clínica TuVida (2).png" width="250px" onclick="window.location.href='index.html'">
+                <img type="button" src="../img/Clínica TuVida (2).png" width="250px"
+                    onclick="window.location.href='index.html'">
             </div>
             <div class="nav-items" style="margin-top:18px;">
                 <ul class="primero">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">La clínica</a>
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-expanded="false">La clínica</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        <li>
-                            <hr class="dropdown-divider">
+                        <li><a class="dropdown-item" href="IC-NuestraHistoria.html">Nuestra Historia</a></li>
+                        <li><a class="dropdown-item" href="IC-SobreEmpresa.html">La empresa</a></li>
+                        <li><a class="dropdown-item" href="IC-NuestrasInstalaciones.html">Nuestras instalaciones</a>
                         </li>
-                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        <li><a class="dropdown-item" href="IC-EquipoMedico.html">Equipos médicos</a></li>
                     </ul>
-                    <!--<li><a href="#">La clínica</a></li>-->
-                    <li><a href="#">Servicios</a></li>
                     <li><a href="./articulos.html">Artículos</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="./presupuestos.html">Presupuestos</a></li>
                 </ul>
             </div>
             <button id="citab">
@@ -220,12 +218,13 @@
     <div class="footer" style="margin-top: 16px; margin-right: 0px;">
         <div class="row row-cols-3" id="infooter">
             <div class="col">
-                <img type="button" src="../img/Clínica TuVida (2).png" width="250px" onclick="window.location.href='index.html'">
+                <img type="button" src="../img/Clínica TuVida (2).png" width="250px"
+                    onclick="window.location.href='index.html'">
                 <p>Clínica TuVida - Todos los derechos reservados</p>
             </div>
             <div class="col" id="mid">
-                <a href="">Contáctenos</a>
-                <a href="">Reclamaciones y Sugerencias</a>
+                <a href="./ContactarClinica.html">Contáctenos</a>
+                <a href="./reclamaciones.html">Reclamaciones y Sugerencias</a>
             </div>
             <div class="col">
                 <h2>Oficina central:</h2>
