@@ -32,6 +32,7 @@
                         <li><a class="dropdown-item" href="IC-NuestrasInstalaciones.html">Nuestras instalaciones</a>
                         </li>
                         <li><a class="dropdown-item" href="IC-EquipoMedico.html">Equipos médicos</a></li>
+                        <li><a class="dropdown-item" href="staff.php">Staff médico</a></li>
                     </ul>
                     <li><a href="./articulos.html">Artículos</a></li>
                     <li><a href="./presupuestos.html">Presupuestos</a></li>
@@ -45,46 +46,47 @@
 
     <div class="container" style="background-image: url(../img/contacto.png)">
         <div style="text-align: center;">
-            <br/>
-            <br/>
+            <br />
+            <br />
             <h1 style="color:white;"><b>Presupuestos</b></h1>
-            <br/>
-            <p style="color:white;"><b>Si desea solicitar un presupuesto para una intervención quirúrgica llene los datos solicitados y nos comunicaremos con usted.</b></p>
-            <br/>
+            <br />
+            <p style="color:white;"><b>Si desea solicitar un presupuesto para una intervención quirúrgica llene los
+                    datos solicitados y nos comunicaremos con usted.</b></p>
+            <br />
         </div>
     </div>
     <div class="container">
-        <br/>
+        <br />
         <p><b>Todos los datos que nos envíe se mantendrán en completa confidencialidad.</b></p>
-        <form  autocomplete="off" id="myform" onsubmit="return enviar();">
+        <form autocomplete="off" id="myform" onsubmit="return enviar();">
             <fieldset>
-            <p>Nombre</p>
-            <div class="input-icono" style="background-image: url(../img/ic_nombre.png);">
-                <input type="text" name="input" required="true">
-            </div>
-            <p>Número de celular</p>
-            <div class="input-icono" style="background-image: url(../img/ic_telefono.png);">
-                <input type="tel" name="input" required="true">
-            </div>
-            <p>Comentario (¿Qué es lo que desea con exactitud?)</p>
-            <div class="input-icono" style="background-image: url(../img/ic_comentario.png); height: 15em;">
-                <textarea type="text" rows="10" cols="40" name="input"></textarea>
-            </div>
-            <input type="submit"  class="bttn"  value="Solicitar"></input>
-            <script language="JavaScript"> 
-                function enviar() {
-                    var formulario = document.getElementById("myform");
-                    var dato = formulario[0];
-                    if (dato.value==null) {
-                        alert("Formulario enviado con éxito");
-                        formulario.submit();
-                        return true;
-                    } else {
-                        alert("No se envía el formulario");
-                        return false;
+                <p>Nombre</p>
+                <div class="input-icono" style="background-image: url(../img/ic_nombre.png);">
+                    <input type="text" name="input" required="true">
+                </div>
+                <p>Número de celular</p>
+                <div class="input-icono" style="background-image: url(../img/ic_telefono.png);">
+                    <input type="tel" name="input" required="true">
+                </div>
+                <p>Comentario (¿Qué es lo que desea con exactitud?)</p>
+                <div class="input-icono" style="background-image: url(../img/ic_comentario.png); height: 15em;">
+                    <textarea type="text" rows="10" cols="40" name="input"></textarea>
+                </div>
+                <input type="submit" class="bttn" value="Solicitar"></input>
+                <script language="JavaScript">
+                    function enviar() {
+                        var formulario = document.getElementById("myform");
+                        var dato = formulario[0];
+                        if (dato.value == null) {
+                            alert("Formulario enviado con éxito");
+                            formulario.submit();
+                            return true;
+                        } else {
+                            alert("No se envía el formulario");
+                            return false;
+                        }
                     }
-                }
-            </script>
+                </script>
             </fieldset>
         </form>
     </div>
@@ -107,4 +109,5 @@
         </div>
     </div>
 </body>
+
 </html>

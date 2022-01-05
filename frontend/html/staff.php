@@ -9,26 +9,27 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Staff Médico - Clínica TuVida | Tu salud, nuestra prioridad</title>
     <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
     <script src="../js/filtrar.js"></script>
 </head>
 
 <body>
-<div class="header">
+    <div class="header">
         <nav>
             <div class="logo">
-                <img type="button" src="../img/Clínica TuVida (2).png" width="250px"
-                    onclick="window.location.href='index.html'">
+                <img type="button" src="../img/Clínica TuVida (2).png" width="250px" onclick="window.location.href='index.html'">
             </div>
             <div class="nav-items" style="margin-top:18px;">
                 <ul class="primero">
-                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                        aria-expanded="false">La clínica</a>
+                    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">La clínica</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="IC-NuestraHistoria.html">Nuestra Historia</a></li>
                         <li><a class="dropdown-item" href="IC-SobreEmpresa.html">La empresa</a></li>
                         <li><a class="dropdown-item" href="IC-NuestrasInstalaciones.html">Nuestras instalaciones</a>
                         </li>
                         <li><a class="dropdown-item" href="IC-EquipoMedico.html">Equipos médicos</a></li>
+                        <li><a class="dropdown-item" href="staff.php">Staff médico</a></li>
                     </ul>
                     <li><a href="./articulos.html">Artículos</a></li>
                     <li><a href="./presupuestos.html">Presupuestos</a></li>
@@ -218,8 +219,7 @@
     <div class="footer" style="margin-top: 16px; margin-right: 0px;">
         <div class="row row-cols-3" id="infooter">
             <div class="col">
-                <img type="button" src="../img/Clínica TuVida (2).png" width="250px"
-                    onclick="window.location.href='index.html'">
+                <img type="button" src="../img/Clínica TuVida (2).png" width="250px" onclick="window.location.href='index.html'">
                 <p>Clínica TuVida - Todos los derechos reservados</p>
             </div>
             <div class="col" id="mid">
