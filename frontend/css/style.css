@@ -914,8 +914,8 @@ p {
 /*Contactenos*/
 .banner img {
     position: absolute;
-    width: 2027px;
-    height: 324px;
+    width: 100%;
+    height: auto;
     left: 0px;
     top: 100px;
 
