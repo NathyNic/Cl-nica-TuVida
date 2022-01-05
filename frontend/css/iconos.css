@@ -1,0 +1,30 @@
+.input-icono {
+    background-repeat: no-repeat;
+    background-position:right top;
+    background-color: #DDDCDC;
+    background-size: 2.5em;
+    display: flex;
+    width: 70%;
+    border-radius: 0.7em;
+    padding: 0.6em;
+    border: none;
+    margin-bottom: 1em;
+  }
+  .input-icono input {
+    background-color: unset;
+    width: 95%;
+    font-size: 1em;
+    border: none;
+  }
+  .input-icono input:focus {
+    outline: none;
+  }
+  textarea{
+    background-color: unset;
+    width: 95%;
+    font-size: 1em;
+    border: none;
+  }
+  textarea:focus{
+    outline: none;
+  }
