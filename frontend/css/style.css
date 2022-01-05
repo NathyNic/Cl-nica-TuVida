@@ -485,22 +485,22 @@ p {
 
 /*Donar sangre*/
 
-.imagen_principal_donativo{
-    position:relative;
+.imagen_principal_donativo {
+    position: relative;
 }
 
-.donar_inicial{
+.donar_inicial {
     position: absolute;
     top: 10rem;
     left: 16rem;
     color: #FFFF;
     font-size: 50px;
-    text-decoration: double;   
+    text-decoration: double;
     font-weight: bolder;
     text-shadow: 2.5px 2.5px #C4C4C4;
 }
 
-.donar_end{
+.donar_end {
     position: absolute;
     top: 14rem;
     left: 17rem;
@@ -508,7 +508,7 @@ p {
     font-size: 25px;
 }
 
-.titulo_donar_requi{
+.titulo_donar_requi {
     font-weight: bolder;
     margin: 20px 0 20px 0;
     text-shadow: 2px 4px #C4C4C4;
@@ -520,7 +520,7 @@ p {
 
 }
 
-.barra_texto{
+.barra_texto {
     position: absolute;
     top: 30px;
     left: 15%;
@@ -529,7 +529,7 @@ p {
     margin: 0 0 0 0;
 }
 
-#mayor_18{
+#mayor_18 {
     position: absolute;
     top: 0;
     left: 0;
@@ -537,7 +537,7 @@ p {
     height: 110px;
 }
 
-.texto_peso{
+.texto_peso {
     position: absolute;
     top: 8px;
     left: 70%;
@@ -548,7 +548,7 @@ p {
     text-align: center;
 }
 
-.texto_dni{
+.texto_dni {
     position: absolute;
     top: 30px;
     left: 140%;
@@ -558,7 +558,7 @@ p {
     width: 450px;
 }
 
-#peso{
+#peso {
     position: absolute;
     top: 0;
     left: 0;
@@ -566,7 +566,7 @@ p {
     height: 110px;
 }
 
-#dni_18{
+#dni_18 {
     position: absolute;
     top: 0;
     left: 0;
@@ -574,7 +574,7 @@ p {
     height: 110px;
 }
 
-#electro{
+#electro {
     position: absolute;
     top: 0;
     left: 0;
@@ -582,7 +582,7 @@ p {
     height: 110px;
 }
 
-.proceso_donar{
+.proceso_donar {
     width: 100px;
 }
 
@@ -591,7 +591,17 @@ p {
 
 /*Página Reserva de Citas*/
 
-.square {
+#fechas input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+#fechas input[type="radio"]+label {
+    cursor: pointer;
+}
+
+#fechas label {
     display: inline-block;
     justify-content: center;
     border-radius: 5px;
@@ -602,21 +612,54 @@ p {
     width: 103px;
 }
 
-.square h6 {
+
+#fechas label h6 {
     font-size: 18px;
     margin-bottom: 0px;
     color: #24661D;
 }
 
-.square h3 {
+#fechas label h3 {
     font-size: 40px;
     margin-bottom: 0px;
     font-weight: bold;
     color: #24661D;
 }
 
+#fechas input[type="radio"]:focus+label {
+    border: 2px dashed #444;
+}
 
-.square2 {
+#fechas input[type="radio"]:checked+label {
+    background-color: #24661D;
+}
+
+#fechas input[type="radio"]:checked+label h6 {
+    font-size: 18px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+#fechas input[type="radio"]:checked+label h3 {
+    font-size: 40px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: white;
+}
+
+#citasdispo input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+#citasdispo input[type="radio"]+label {
+    cursor: pointer;
+}
+
+
+
+#citasdispo label {
     display: inline-block;
     justify-content: center;
     border-radius: 5px;
@@ -631,23 +674,28 @@ p {
     box-shadow: 6px 6px 4px grey;
 }
 
-.square2 h4 {
+#citasdispo label {
     margin-top: 10px;
     font-size: 28px;
     font-weight: 700;
 }
 
-.square2 img {
+#citasdispo label img {
     width: 15%;
     height: 15%;
     padding: 10px;
 }
 
-.square2 p {
+#citasdispo label p {
     font-size: 18px;
+    font-weight: lighter;
     margin-top: 10px;
     margin-bottom: 0px;
-    color: #24661D;
+    color: black;
+}
+
+#citasdispo input[type="radio"]:checked+label {
+    background-color: #48CC39;
 }
 
 .vl {
@@ -686,7 +734,7 @@ p {
 
 /*Claudia*/
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -699,83 +747,88 @@ p {
     margin-right: auto;
     margin-bottom: 0px;
     max-width: 1300px;
-    justify-content:left;
-    align-items:left ;
+    justify-content: left;
+    align-items: left;
 
 }
 
-.infor{
+.infor {
     position: absolute;
     width: 413px;
     height: 437px;
     left: 112px;
     top: 230px;
-    
-   
-}   
 
-.boton{
-    display:inline-flex;
-    align-items:center;
-    justify-content:center;
+
+}
+
+.boton {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 80px;
-    background:#24661D;
-    color:#fff;
-    font-family:'Roboto',sans-serif;
-    font-size:20px;
-    font-weight:500;
+    background: #24661D;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
     border: none;
-    cursor:pointer;
+    cursor: pointer;
     text-transform: uppercase;
     transition: .3s ease all;
-    border-radius:5px;
+    border-radius: 5px;
 }
-.boton.uno::after{
+
+.boton.uno::after {
     position: absolute;
     width: 278px;
     height: 90px;
     left: 632px;
     top: 330px;
-    
+
     background: #24661D;
     border-radius: 20px;
 }
-.boton.dos::after{
+
+.boton.dos::after {
     position: absolute;
     width: 278px;
     height: 90px;
     left: 1063px;
     top: 330px;
-    
+
     background: #24661D;
     border-radius: 20px;
 }
-.boton.tres::after{
+
+.boton.tres::after {
     position: absolute;
     width: 278px;
     height: 90px;
     left: 632px;
     top: 480px;
-    
+
     background: #24661D;
     border-radius: 20px;
     
 
 }
-.boton.cuatro::after{
+
+.boton.cuatro::after {
     position: absolute;
     width: 278px;
     height: 90px;
     left: 1079px;
     top: 467px;
-    
+
     background: #24661D;
     border-radius: 20px;
 }
+
 /*IC-Nuestra Historia*/
-.parrafo{
-   /*z-index:1;
+.parrafo {
+    /*z-index:1;
    width:540px;
    height:440px;
    padding:20px 20px;
@@ -785,72 +838,78 @@ p {
    box-shadow: 1px 5px 25px rgba(0,0,0,0.45);
    border-radius:5px;
    text-align: justify;*/
-   position: absolute;
-width: 1020px;
-height: 690px;
-left: 494px;
-top: 250px;
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 24px;
-
-color: #000000;
-
-}
-.parrafo img{
-    width: 310px;
-    border-radius: 5px;
-    float:left;
-    margin-right: 15px;
- 
-}
-.parrafo2 img{
-    width: 310px;
-    border-radius: 5px;
-    float:right;
-    margin-right: 15px;
-}
-/*IC-Sobre la Empresa*/
-.parrafo3{
     position: absolute;
-    width: 1800px;
-    height: 590px;
-    left: 124px;
-    top: 300px;
-    
+    width: 1020px;
+    height: 690px;
+    left: 494px;
+    top: 250px;
+
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-    
+
+    color: #000000;
+
+}
+
+.parrafo img {
+    width: 310px;
+    border-radius: 5px;
+    float: left;
+    margin-right: 15px;
+
+}
+
+.parrafo2 img {
+    width: 310px;
+    border-radius: 5px;
+    float: right;
+    margin-right: 15px;
+}
+
+/*IC-Sobre la Empresa*/
+.parrafo3 {
+    position: absolute;
+    width: 1800px;
+    height: 590px;
+    left: 124px;
+    top: 300px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
     color: #000000;
 }
-.parrafo3 img{
+
+.parrafo3 img {
     width: 510px;
     border-radius: 5px;
-    float:right;
+    float: right;
     margin-right: 15px;
- 
+
 }
+
 /*Nuestras Instalaciones*/
-.ImagenNI{
+.ImagenNI {
     width: 100%;
     margin-top: 3em;
     margin-bottom: 10em;
-    
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap:30px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
 }
 
-.item-img{
+.item-img {
     max-width: 100%;
-    display:block;
+    display: block;
 }
+
 /*Contactenos*/
 .banner img {
     position: absolute;
@@ -858,22 +917,25 @@ color: #000000;
     height: 324px;
     left: 0px;
     top: 100px;
-    
+
 }
-.contenedor .form .form-header .form-title{
+
+.contenedor .form .form-header .form-title {
     font-weight: normal;
     font-family: Montserrat;
-    color:#000000;
+    color: #000000;
     text-align: center;
     padding: 14px 0;
 }
-.contenedor .form .form-header .form-title span{
-    color:#fff;
-   
+
+.contenedor .form .form-header .form-title span {
+    color: #fff;
+
 
 }
+
 .contenedor .form {
-    background: rgda(0,0,0,0.6);
+    background: rgda(0, 0, 0, 0.6);
     width: 90%;
     max-width: 658;
     margin: auto;
@@ -882,74 +944,116 @@ color: #000000;
     padding-bottom: 30px;
     border-radius: 3px;
 }
-.contenedor .form .form-label{
-    display:block;
-    color:#000000;
-    font-size:16px;
+
+.contenedor .form .form-label {
+    display: block;
+    color: #000000;
+    font-size: 16px;
     font-family: Montserrat;
     position: relative;
 }
-.contenedor .form .form-input, .formtextarea{
-    background: rgba(0,0,0,.3);
-    border:none;
+
+.contenedor .form .form-input,
+.formtextarea {
+    background: rgba(0, 0, 0, .3);
+    border: none;
     outline: none;
-    border-bottom: 2px solid ;
+    border-bottom: 2px solid;
     width: 100%;
-    padding:12px ;
+    padding: 12px;
     margin-bottom: 20px;
     border-radius: 2px;
     font-size: 14px;
     color: #fff;
     font-size: Montserrat;
 }
-.contenedor .form .formtextarea{
-    resize:vertical;
+
+.contenedor .form .formtextarea {
+    resize: vertical;
     max-height: 150px;
     min-height: 50px;
 }
-.contenedor .form .btn-submit{
+
+.contenedor .form .btn-submit {
     width: 100%;
     font-family: Montserrat;
     outline: none;
     background: #24661D;
     font-size: 16px;
-    border:none;
-    color:#fff;
+    border: none;
+    color: #fff;
     padding: 15px 0;
     cursor: pointer;
 }
+
 .contenedor .form .btn-submit:hover {
     background: #48CC39;
 }
 
 /*Cardiologia*/
-.parrafo10{
-   
-position: absolute;
- width: 1020px;
- height: 690px;
- left: 494px;
- top: 250px;
- 
- font-family: Montserrat;
- font-style: normal;
- font-weight: 500;
- font-size: 20px;
- line-height: 24px;
- 
- color: #000000;
- 
- }
- .parrafo10 img{
-     /*width: 310px;
+.parrafo10 {
+
+    position: absolute;
+    width: 1020px;
+    height: 690px;
+    left: 494px;
+    top: 250px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+
+}
+
+.parrafo10 img {
+    /*width: 310px;
      border-radius: 5px;
      float:left;
      margin-right: 15px;*/
-     position: absolute;
-width: 300px;
-height: 288px;
-left: 50px;
-top: 550px;
-  
- }
- /*Fin Claudia*/
+    position: absolute;
+    width: 300px;
+    height: 288px;
+    left: 50px;
+    top: 550px;
+
+}
+
+/*Fin Claudia*/
+
+
+.radio-toolbar {
+    margin: 10px;
+}
+
+.radio-toolbar input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+
+.radio-toolbar label {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border: 2px solid #444;
+    border-radius: 4px;
+}
+
+.radio-toolbar label:hover {
+    background-color: #dfd;
+}
+
+.radio-toolbar input[type="radio"]:focus+label {
+    border: 2px dashed #444;
+}
+
+.radio-toolbar input[type="radio"]:checked+label {
+    background-color: #bfb;
+    border-color: #4c4;
+}
