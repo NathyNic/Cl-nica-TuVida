@@ -487,12 +487,13 @@ p {
 
 .imagen_principal_donativo {
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .donar_inicial {
     position: absolute;
     top: 10rem;
-    left: 16rem;
     color: #FFFF;
     font-size: 50px;
     text-decoration: double;
@@ -503,7 +504,6 @@ p {
 .donar_end {
     position: absolute;
     top: 14rem;
-    left: 17rem;
     color: #FFFF;
     font-size: 25px;
 }
@@ -583,7 +583,8 @@ p {
 }
 
 .proceso_donar {
-    width: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 /*End Donar Sangre*/
