@@ -15,7 +15,7 @@
         <nav>
             <div class="nav-items" style="margin-top:18px;">
                 <ul class="primero">
-                    <li><a href="./index.html"><img src="https://img.icons8.com/ios/50/000000/undo.png" style="width: 30px; height: 30px; margin-right: 5px;" />Regresar</a>
+                    <li><a href="index.html"><img src="https://img.icons8.com/ios/50/000000/undo.png" style="width: 30px; height: 30px; margin-right: 5px;" />Regresar</a>
                     </li>
                 </ul>
             </div>
