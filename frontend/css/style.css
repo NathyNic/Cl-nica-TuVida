@@ -733,6 +733,10 @@ p {
     color: white !important;
 }
 
+#btncont[disabled="disabled"] {
+    background-color: grey;
+}
+
 /*Claudia*/
 
 * {

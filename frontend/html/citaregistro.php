@@ -48,11 +48,6 @@
 
                 </div>
             </div>
-            <div>
-                <input type="radio" class="radio-inline" name="clinic_staff" id="clinic_staff1" value="Yes"><label for="clinic_staff1">Yes</label>
-                <br>
-                <input type="radio" class="radio" name="clinic_staff" id="clinic_staff2" value="No"><label for="clinic_staff2">No</label>
-            </div>
             <div class="row justify-content-start">
                 <div class="col-4 d-flex justify-content-center text-center" style="flex-direction: column;">
                     <label for="pac_name" style="align-self: flex-start; margin-bottom: 5px;">Nombres:</label>
@@ -123,9 +118,9 @@
                         <div class="col-1" style="margin-right: 10px; width: fit-content;">
                             <input type="radio" id="btnselect1" name="btn_select">
                             <label for="btnselect1">
-                                <h6>Mié</h6>
-                                <h3>24</h3>
-                                <h6>Dic</h6>
+                                <h6>Jue</h6>
+                                <h3>6</h3>
+                                <h6>Ene</h6>
                             </label>
                         </div>
                         <!--
